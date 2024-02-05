@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
-Module to register blueprints and run the flask server
-in preparation for api calls
+Modules to register blueprints and run the flask server
+in preparation for the api calls
 """
 from api.v1.views import app_views
 from flask import Flask, jsonify
